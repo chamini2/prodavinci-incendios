@@ -41,6 +41,38 @@ var config = {
             ]
         },
         {
+          id: 'sumario',
+          alignment: 'complete',
+          hidden: false,
+          title: 'Storytelling',
+          
+          description: 
+            "<p>Este es el intertitulo</p><p>Esto es algo&nbsp;</p><p><img src=''></p><p>Y esto es otra cosa <a href='https://google.com'>con uns linea de hipervinculo</a>&nbsp;y no se que mas poner asi que ni modo esto se queda asi&nbsp;</p>",
+          location: {
+              center: [-66.55775, -0.36321],
+              zoom: 3.48,
+              pitch: 21.00,
+              bearing: 0
+          },
+          image: './path/to/image/source.png',
+          mapAnimation: 'flyTo',
+          rotateAnimation: false,
+          callback: '',
+          onChapterEnter: [
+              {
+              layer: 'limiteraisg',
+              opacity: 0.9999999,
+              duration: 5000
+              }
+          ],
+          onChapterExit: [
+              {
+              layer: 'limiteraisg',
+              opacity: 0
+              }
+          ]
+      },
+        {
             id: 'biodiversidad',
             alignment: 'full',
             hidden: false,
