@@ -1,3 +1,162 @@
 #header {
   background-color: yellowgreen;
 }
+
+a, a:link, a:visited, a:hover {
+  color: #ffaa17 !important;
+  text-decoration: unset;
+}
+
+/* Texto Simple */
+.texto-simple {
+  min-width: 100vw;
+  height: 100vh;
+  opacity: 0.9999999 !important;
+  background-color: #1a1a1a;
+  padding: 0px !important;
+  margin-bottom: 50vh;
+}
+.texto-simple >  .dark {
+  text-align: justify;;
+  height: 90vh;
+  background-color: inherit !important;
+  padding: 5vh 25vh;
+}
+.texto-simple >  .dark >  h3 {
+  font-size: 50px;
+  font-weight: bold;
+  color: #ffffff;
+}
+.texto-simple >  .dark >  p {
+  font-size: 30px;
+  font-weight: bold;
+  color: #ffffffc7
+}
+
+/* Texto Avanzado */
+.texto-avanzado {
+  min-width: 100vw;
+  height: 100vh;
+  opacity: 0.9999999 !important;
+  background-color: #1a1a1a;
+  padding: 0px !important;
+  margin-bottom: 50vh;
+}
+.texto-avanzado >  .dark {
+  text-align: justify;;
+  height: 90vh;
+  background-color: inherit !important;
+  padding: 5vh 25vh;
+}
+
+.texto-avanzado >  .dark >  p {
+  font-size: 30px;
+  font-weight: bold;
+  color: #ffffffc7
+}
+
+.texto-avanzado >  .dark > p > h3 {
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+  color: #ffffff;
+}
+
+.texto-avanzado >  .dark >  img {
+  width: 50%;
+}
+
+
+/* Sumario */
+.sumario {}
+
+/* Infografia */
+.infografia {
+  min-width: 100vw;
+  height: 100vh;
+  opacity: 0.9999999 !important;
+  background-color: #1a1a1a;
+  padding: 0px !important;
+  margin-bottom: 50vh;
+}
+.infografia >  .dark {
+  text-align: justify;;
+  height: 90vh;
+  background-color: inherit !important;
+  padding: 5vh 10vh;
+}
+
+.infografia >  .dark >  p {
+  font-size: 20px;
+  font-weight: bold;
+  color: #ffaa17;
+}
+
+.infografia >  .dark > p > h3 {
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+  color: #ffffff;
+}
+
+.infografia >  .dark >  img {
+  max-width: 2680px;
+  max-height: 1680px;
+  width: 80vw;
+  height: 80vh;
+}
+/* Footer */
+.footer {
+  min-width: 100vw;
+  height: 100vh;
+  opacity: 0.9999999 !important;
+  background-color: #1a1a1a;
+  padding: 0px !important;
+  margin-bottom: 50vh;
+}
+.footer >  .dark {
+  text-align: justify;;
+  height: 90vh;
+  background-color: inherit !important;
+  padding: 5vh 0vh;
+}
+
+.footer >  .dark >  p > p{
+  font-size: 30px;
+  font-weight: bold;
+  color: #ffffffc7;
+  padding: 0vh 25vh;
+}
+
+.footer >  .dark > p > p > p {
+  
+  height: 100px;
+  margin: 0px !important;
+  font-size: 60px;
+  font-weight: bold;
+  text-align: justify;
+  color: black;
+  background-color: #ffaa17;
+}
+
+.footer >  .dark > p > p > h3{
+  padding: 0vh 25vh;
+}
+
+.creditos {
+  background-color: #ffaa17;
+  height: 100px;
+}
+
+.fecha {
+  font-size: 40px !important;
+  color: #ffaa17 !important;
+
+}
+
+.creditos > a {
+  font-size: 60px;
+  color: black !important
+}
+/* Texto mapa */
+.texto-mapa {}

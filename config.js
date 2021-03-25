@@ -41,13 +41,45 @@ var config = {
             ]
         },
         {
+          id: 'aumentoduida',
+          alignment: 'right',
+          hidden: false,
+          title: '',
+          image: './path/to/image/source.png',
+          description: 'Y al sur, en el estado Amazonas, los incendios dentro del Parque Nacional Duida Marahuaca aumentaron 77% en la segunda década del milenio.',
+          location: {
+              center: [-65.51547, 3.35576],
+              zoom: 10.31,
+              pitch: 60.00,
+              bearing: -32.73
+          },
+          mapAnimation: 'flyTo',
+          rotateAnimation: false,
+          callback: '',
+          onChapterEnter: [
+            {
+            layer: 'ap',
+            opacity: 1,
+            duration: 5000
+            }
+          ],
+          onChapterExit: [
+            {
+            layer: 'ap',
+            opacity: 0
+          },
+        ]
+      },
+        {
           id: 'sumario',
-          alignment: 'complete',
+          alignment: 'texto-simple',
           hidden: false,
           title: 'Storytelling',
           
           description: 
-            "<p>Este es el intertitulo</p><p>Esto es algo&nbsp;</p><p><img src=''></p><p>Y esto es otra cosa <a href='https://google.com'>con uns linea de hipervinculo</a>&nbsp;y no se que mas poner asi que ni modo esto se queda asi&nbsp;</p>",
+            " <p>Este es el intertitulo</p><p>Esto es algo&nbsp;</p>\
+              <p><img src=''></p>\
+              <p>Y esto es otra cosa <a href='https://google.com'>con uns linea de hipervinculo</a>&nbsp;y no se que mas poner asi que ni modo esto se queda asi&nbsp;</p>",
           location: {
               center: [-66.55775, -0.36321],
               zoom: 3.48,
@@ -71,7 +103,196 @@ var config = {
               opacity: 0
               }
           ]
+        },
+        {
+          id: 'aumentoduida',
+          alignment: 'right',
+          hidden: false,
+          title: '',
+          image: './path/to/image/source.png',
+          description: 'Y al sur, en el estado Amazonas, los incendios dentro del Parque Nacional Duida Marahuaca aumentaron 77% en la segunda década del milenio.',
+          location: {
+              center: [-65.51547, 3.35576],
+              zoom: 10.31,
+              pitch: 60.00,
+              bearing: -32.73
+          },
+          mapAnimation: 'flyTo',
+          rotateAnimation: false,
+          callback: '',
+          onChapterEnter: [
+            {
+            layer: 'ap',
+            opacity: 1,
+            duration: 5000
+            }
+          ],
+          onChapterExit: [
+            {
+            layer: 'ap',
+            opacity: 0
+          },
+        ]
       },
+        {
+          id: 'sumario',
+          alignment: 'infografia',
+          hidden: false,
+          image: './pulitzer-center-logo.png',
+          description: 
+              "Leyenda de la infografia",
+          location: {
+              center: [-66.55775, -0.36321],
+              zoom: 3.48,
+              pitch: 21.00,
+              bearing: 0
+          },
+          mapAnimation: 'flyTo',
+          rotateAnimation: false,
+          callback: '',
+          onChapterEnter: [
+              {
+              layer: 'limiteraisg',
+              opacity: 0.9999999,
+              duration: 5000
+              }
+          ],
+          onChapterExit: [
+              {
+              layer: 'limiteraisg',
+              opacity: 0
+              }
+          ]
+        },
+        {
+          id: 'aumentoduida',
+          alignment: 'right',
+          hidden: false,
+          title: '',
+          image: './path/to/image/source.png',
+          description: 'Y al sur, en el estado Amazonas, los incendios dentro del Parque Nacional Duida Marahuaca aumentaron 77% en la segunda década del milenio.',
+          location: {
+              center: [-65.51547, 3.35576],
+              zoom: 10.31,
+              pitch: 60.00,
+              bearing: -32.73
+          },
+          mapAnimation: 'flyTo',
+          rotateAnimation: false,
+          callback: '',
+          onChapterEnter: [
+            {
+            layer: 'ap',
+            opacity: 1,
+            duration: 5000
+            }
+          ],
+          onChapterExit: [
+            {
+            layer: 'ap',
+            opacity: 0
+          },
+        ]
+      },
+        {
+          id: 'sumario',
+          alignment: 'footer',
+          hidden: false,
+          description: 
+              "<p class='creditos'><a>Creditos</a></p>\
+              <p>Direccion general: <a>Este pana</a></p>\
+              <p>Direccion general: <a>Este pana</a></p>\
+              <p>Direccion general: <a>Este pana</a></p>\
+              <p>Direccion general: <a>Este pana</a></p>\
+              <p>Direccion general: <a>Este pana</a></p>\
+              <p>Direccion general: <a>Este pana</a></p>\
+              <p>Direccion general: <a>Este pana</a></p>\
+              <hr>\
+              <p class='fecha'>CARACAS, 19 DE MARZO DE 2021</p>",
+          location: {
+              center: [-66.55775, -0.36321],
+              zoom: 3.48,
+              pitch: 21.00,
+              bearing: 0
+          },
+          mapAnimation: 'flyTo',
+          rotateAnimation: false,
+          callback: '',
+          onChapterEnter: [
+              {
+              layer: 'limiteraisg',
+              opacity: 0.9999999,
+              duration: 5000
+              }
+          ],
+          onChapterExit: [
+              {
+              layer: 'limiteraisg',
+              opacity: 0
+              }
+          ]
+        },
+        {
+          id: 'aumentoduida',
+          alignment: 'right',
+          hidden: false,
+          title: '',
+          image: './path/to/image/source.png',
+          description: 'Y al sur, en el estado Amazonas, los incendios dentro del Parque Nacional Duida Marahuaca aumentaron 77% en la segunda década del milenio.',
+          location: {
+              center: [-65.51547, 3.35576],
+              zoom: 10.31,
+              pitch: 60.00,
+              bearing: -32.73
+          },
+          mapAnimation: 'flyTo',
+          rotateAnimation: false,
+          callback: '',
+          onChapterEnter: [
+            {
+            layer: 'ap',
+            opacity: 1,
+            duration: 5000
+            }
+          ],
+          onChapterExit: [
+            {
+            layer: 'ap',
+            opacity: 0
+          },
+        ]
+      },
+        {
+          id: 'sumario',
+          alignment: 'texto-avanzado',
+          hidden: false,
+          description: 
+              " <img src='./pulitzer-center-logo.png'>\
+                <hr><h3>Este es el autor</h3><hr>\
+                <p>Y esto es otra cosa <a href='https://google.com'>con uns linea de hipervinculo</a>&nbsp;y no se que mas poner asi que ni modo esto se queda asi&nbsp;</p>",
+          location: {
+              center: [-66.55775, -0.36321],
+              zoom: 3.48,
+              pitch: 21.00,
+              bearing: 0
+          },
+          mapAnimation: 'flyTo',
+          rotateAnimation: false,
+          callback: '',
+          onChapterEnter: [
+              {
+              layer: 'limiteraisg',
+              opacity: 0.9999999,
+              duration: 5000
+              }
+          ],
+          onChapterExit: [
+              {
+              layer: 'limiteraisg',
+              opacity: 0
+              }
+          ]
+        },
         {
             id: 'biodiversidad',
             alignment: 'full',
