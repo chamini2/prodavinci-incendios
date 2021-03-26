@@ -10,7 +10,7 @@ a, a:link, a:visited, a:hover {
 /* Texto Simple */
 .texto-simple {
   min-width: 100vw;
-  height: 100vh;
+  min-height: 100vh;
   opacity: 0.9999999 !important;
   background-color: #1a1a1a;
   padding: 0px !important;
@@ -18,7 +18,7 @@ a, a:link, a:visited, a:hover {
 }
 .texto-simple >  .dark {
   text-align: justify;;
-  height: 90vh;
+  min-height: 90vh;
   background-color: inherit !important;
   padding: 5vh 25vh;
 }
@@ -36,7 +36,7 @@ a, a:link, a:visited, a:hover {
 /* Texto Avanzado */
 .texto-avanzado {
   min-width: 100vw;
-  height: 100vh;
+  min-height: 100vh;
   opacity: 0.9999999 !important;
   background-color: #1a1a1a;
   padding: 0px !important;
@@ -44,7 +44,7 @@ a, a:link, a:visited, a:hover {
 }
 .texto-avanzado >  .dark {
   text-align: justify;;
-  height: 90vh;
+  min-height: 90vh;
   background-color: inherit !important;
   padding: 5vh 25vh;
 }
@@ -68,12 +68,35 @@ a, a:link, a:visited, a:hover {
 
 
 /* Sumario */
-.sumario {}
+.sumario {
+  min-width: 100vw;
+  min-height: 100vh;
+  opacity: 0.9999999 !important;
+  background-color: #1a1a1a;
+  padding: 0px !important;
+  margin-bottom: 50vh;
+}
+.sumario >  .dark {
+  text-align: justify;;
+  min-height: 90vh;
+  background-color: inherit !important;
+  padding: 5vh 25vh;
+}
+.sumario >  .dark >  h3 {
+  font-size: 50px;
+  font-weight: bold;
+  color: #ffffff;
+}
+.sumario >  .dark >  p {
+  font-size: 30px;
+  font-weight: bold;
+  color: #ffaa17
+}
 
 /* Infografia */
 .infografia {
   min-width: 100vw;
-  height: 100vh;
+  min-height: 100vh;
   opacity: 0.9999999 !important;
   background-color: #1a1a1a;
   padding: 0px !important;
@@ -81,7 +104,7 @@ a, a:link, a:visited, a:hover {
 }
 .infografia >  .dark {
   text-align: justify;;
-  height: 90vh;
+  min-height: 90vh;
   background-color: inherit !important;
   padding: 5vh 10vh;
 }
@@ -108,7 +131,7 @@ a, a:link, a:visited, a:hover {
 /* Footer */
 .footer {
   min-width: 100vw;
-  height: 100vh;
+  min-height: 100vh;
   opacity: 0.9999999 !important;
   background-color: #1a1a1a;
   padding: 0px !important;
@@ -116,7 +139,7 @@ a, a:link, a:visited, a:hover {
 }
 .footer >  .dark {
   text-align: justify;;
-  height: 90vh;
+  min-height: 90vh;
   background-color: inherit !important;
   padding: 5vh 0vh;
 }
@@ -159,4 +182,32 @@ a, a:link, a:visited, a:hover {
   color: black !important
 }
 /* Texto mapa */
-.texto-mapa {}
+.texto-mapa {
+  max-width: 1150px;
+  opacity: 0.8 !important;
+  background-color: black;
+  padding: 0px!important;
+  margin: 5vh auto 50vh 5vw;
+}
+.texto-mapa >  .dark {
+  text-align: justify;;
+  margin: auto;
+  min-height: 90vh;
+  background-color: inherit !important;
+  max-width: 950px;
+}
+.texto-mapa >  .dark >  h3 {
+  font-size: 50px;
+  font-weight: bold;
+  color: #ffffff;
+}
+.texto-mapa >  .dark >  p {
+  font-size: 30px;
+  font-weight: bold;
+  color: #ffffffc7
+}
+
+figcaption {
+  font-size: 20px;
+  color: #ffaa17;
+}
