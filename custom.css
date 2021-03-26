@@ -12,10 +12,13 @@ a, a:link, a:visited, a:hover {
   min-width: 100vw;
   min-height: 100vh;
   opacity: 0.9999999 !important;
-  background-color: #1a1a1a;
   padding: 0px !important;
   margin-bottom: 50vh;
 }
+.texto-simple.active{
+  background-color: #1a1a1a;
+}
+
 .texto-simple >  .dark {
   text-align: justify;;
   min-height: 90vh;
@@ -72,10 +75,14 @@ a, a:link, a:visited, a:hover {
   min-width: 100vw;
   min-height: 100vh;
   opacity: 0.9999999 !important;
-  background-color: #1a1a1a;
   padding: 0px !important;
   margin-bottom: 50vh;
 }
+
+.sumario.active {
+  background-color: #1a1a1a;
+}
+
 .sumario >  .dark {
   text-align: justify;;
   min-height: 90vh;
