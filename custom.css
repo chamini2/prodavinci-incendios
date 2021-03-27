@@ -72,14 +72,15 @@ a, a:link, a:visited, a:hover {
 
 /* Sumario */
 .sumario {
+  opacity: 0 !important;
   min-width: 100vw;
   min-height: 100vh;
-  opacity: 0.9999999 !important;
   padding: 0px !important;
   margin-bottom: 50vh;
 }
 
 .sumario.active {
+  opacity: 0.9999 !important;
   background-color: #1a1a1a;
 }
 
