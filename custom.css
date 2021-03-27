@@ -26,6 +26,7 @@
 a, a:link, a:visited, a:hover {
   color: #ffaa17 !important;
   text-decoration: unset;
+  font-weight: bold;
 }
 
 /* Texto Simple */
@@ -35,15 +36,17 @@ a, a:link, a:visited, a:hover {
   padding: 0px !important;
   margin-bottom: 50vh;
 }
+
 .texto-simple.active{
   background-color: #1a1a1a;
 }
 
 .texto-simple >  .dark {
-  text-align: justify;;
+  text-align: justify;
+  margin: auto;
   min-height: 90vh;
   background-color: inherit !important;
-  padding: 5vh 25vh;
+  max-width: 950px;
 }
 .texto-simple >  .dark >  h3 {
   font-size: 50px;
@@ -60,15 +63,19 @@ a, a:link, a:visited, a:hover {
 .texto-avanzado {
   min-width: 100vw;
   min-height: 100vh;
-  background-color: #1a1a1a;
   padding: 0px !important;
   margin-bottom: 50vh;
 }
+
+.texto-avanzado.active {
+  background-color: #1a1a1a;
+}
 .texto-avanzado >  .dark {
-  text-align: justify;;
+  text-align: justify;
+  margin: auto;
   min-height: 90vh;
   background-color: inherit !important;
-  padding: 5vh 25vh;
+  max-width: 950px;
 }
 
 .texto-avanzado >  .dark >  p {
@@ -84,10 +91,15 @@ a, a:link, a:visited, a:hover {
   color: #ffffff;
 }
 
-.texto-avanzado >  .dark >  img {
-  width: 50%;
+img {
+  opacity: 0.999 !important;
 }
-
+.texto-avanzado >  .dark > img {
+  width: 50%;
+  display: block;
+  margin: 5vh auto;
+  max-width: 450px;
+}
 
 /* Sumario */
 .sumario {
@@ -95,15 +107,20 @@ a, a:link, a:visited, a:hover {
   min-height: 100vh;
   padding: 0px !important;
   margin-bottom: 50vh;
+}
+
+.sumario.step.active {
   background-color: #1a1a1a;
 }
 
 .sumario >  .dark {
-  text-align: justify;;
+  text-align: justify;
+  margin: auto;
   min-height: 90vh;
   background-color: inherit !important;
-  padding: 5vh 25vh;
+  max-width: 1420px;
 }
+
 .sumario >  .dark >  h3 {
   font-size: 50px;
   font-weight: bold;
@@ -118,16 +135,21 @@ a, a:link, a:visited, a:hover {
 /* Infografia */
 .infografia {
   min-width: 100vw;
-  min-height: 100vh;
-  background-color: #1a1a1a;
+  /* min-height: 100vh; */
   padding: 0px !important;
   margin-bottom: 50vh;
 }
+
+.infografia.active {
+  background-color: #1a1a1a;
+}
+
 .infografia >  .dark {
-  text-align: justify;;
-  min-height: 90vh;
+  text-align: justify;
+  margin: auto;
+  /* min-height: 90vh; */
   background-color: inherit !important;
-  padding: 5vh 10vh;
+  padding: 100px;
 }
 
 .infografia >  .dark >  p {
@@ -146,45 +168,43 @@ a, a:link, a:visited, a:hover {
 .infografia >  .dark >  img {
   max-width: 2680px;
   max-height: 1680px;
-  width: 80vw;
-  height: 80vh;
 }
 /* Footer */
 .footer {
   min-width: 100vw;
   min-height: 100vh;
-  opacity: var(--show-opacity) !important;
-  background-color: #1a1a1a;
   padding: 0px !important;
-  margin-bottom: 50vh;
-}
-.footer >  .dark {
-  text-align: justify;;
-  min-height: 90vh;
-  background-color: inherit !important;
-  padding: 5vh 0vh;
 }
 
-.footer >  .dark >  p > p{
+.footer.step.active {
+  background-color: #1a1a1a;
+}
+
+.footer >  .dark {
+  text-align: justify;
+  margin: auto;
+  min-height: 90vh;
+  background-color: inherit !important;
+  max-width: 950px;
+}
+
+.footer >  .dark >  p {
   font-size: 30px;
   font-weight: bold;
   color: #ffffffc7;
-  padding: 0vh 25vh;
 }
 
-.footer >  .dark > p > p > p {
-  
-  height: 100px;
-  margin: 0px !important;
-  font-size: 60px;
-  font-weight: bold;
-  text-align: justify;
-  color: black;
+.footer >  .dark >  h3 {
   background-color: #ffaa17;
+  height: 100px;
+  font-size: 60px;
+  color: black;
 }
 
-.footer >  .dark > p > p > h3{
-  padding: 0vh 25vh;
+.footer >  .dark >  hr {
+  max-width: 580px;
+  margin: 0px;
+  border-color: #ffaa17;
 }
 
 .creditos {
@@ -195,7 +215,6 @@ a, a:link, a:visited, a:hover {
 .fecha {
   font-size: 40px !important;
   color: #ffaa17 !important;
-
 }
 
 .creditos > a {
@@ -205,16 +224,18 @@ a, a:link, a:visited, a:hover {
 /* Texto mapa */
 .texto-mapa {
   max-width: 1150px;
-  opacity: 0.8 !important;
-  background-color: black;
+  background: rgba(0, 0, 0, .8);
+  /* opacity: 0.8 !important;
+  background-color: black; */
   padding: 0px!important;
   margin: 5vh auto 50vh 5vw;
 }
 .texto-mapa >  .dark {
-  text-align: justify;;
+  text-align: justify;
   margin: auto;
   min-height: 90vh;
-  background-color: inherit !important;
+  /* background-color: inherit !important; */
+  background-color: rgba(0, 0, 0, 0) !important;
   max-width: 950px;
 }
 .texto-mapa >  .dark >  h3 {
@@ -261,16 +282,52 @@ a, a:hover, a:visited {
   text-align: center;
 }
 #footer {
-  width: 100%;
-  min-height: 5vh;
-  padding-top: 2vh;
+  width: 100vw;
   padding-bottom: 2vh;
+  background-color: #1a1a1a;
   text-align: center;
-  line-height: 25px;
-  font-size: 13px;
   position: relative;
   z-index: 5;
 }
+
+#footer > #credito {
+  background-color: #ffaa17;
+  width: 100%;
+  height: 100px;
+}
+
+#footer > #credito > p{
+  font-size: 60px;
+  max-width: 950px;
+  padding: 25px 50px;
+  font-weight: bold;
+  margin: auto;
+  text-align: left;
+  padding-top: 10px;
+}
+
+#footer > #cline{
+  max-width: 950px;
+  margin: auto;
+}
+
+#footer > #cline hr {
+  max-width: 580px;
+  margin: 0px;
+  border-color: #ffaa17;
+  padding: 0px 50px;
+}
+
+
+#footer > p {
+  color: white;
+  font-size: 30px;
+  max-width: 950px;
+  padding: 0px 50px;
+  text-align: left;
+  margin: 20px auto;
+}
+
 #features {
   padding-top: 10vh;
   padding-bottom: 10vh;
@@ -339,3 +396,85 @@ a, a:hover, a:visited {
 }
 
 /* END BASE CSS */
+
+/* Modal */
+
+/* Style the Image Used to Trigger the Modal */
+#myImg {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#myImg:hover {opacity: 0.7;}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (Image) */
+.modal-content {
+  margin: auto;
+  display: block;
+  width: 80%;
+  /* max-width: 700px; */
+}
+
+/* Caption of Modal Image (Image Text) - Same Width as the Image */
+#caption {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+
+/* Add Animation - Zoom in the Modal */
+.modal-content, #caption {
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@keyframes zoom {
+  from {transform:scale(0)}
+  to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+  .modal-content {
+    width: 100%;
+  }
+}

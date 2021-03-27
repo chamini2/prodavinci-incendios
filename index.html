@@ -14,6 +14,36 @@
 
 <div id="map"></div>
 <div id="story"></div>
+<div id="footer">
+    <div id="credito">
+        <p>Creditos</p>
+    </div>
+    <p>Direccion general: <a>Este pana</a></p>
+    <p>Direccion general: <a>Este pana</a></p>
+    <p>Direccion general: <a>Este pana</a></p>
+    <p>Direccion general: <a>Este pana</a></p>
+    <p>Direccion general: <a>Este pana</a></p>
+    <p>Direccion general: <a>Este pana</a></p>
+    <p>Direccion general: <a>Este pana</a></p>
+    <div id='cline'>
+        <hr>
+    </div>
+    <p class="fecha">CARACAS, 19 DE MARZO DE 2021</p>
+</div>
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+    <!-- The Close Button -->
+    <span class="close">&times;</span>
+  
+    <!-- Modal Content (The Image) -->
+    <img class="modal-content" id="img-modal">
+  
+    <!-- Modal Caption (Image Text) -->
+    <div id="caption"></div>
+  </div>
+
 <script src="./config.js"></script>
 <script>
 var layerTypes = {
@@ -234,6 +264,39 @@ map.on("load", function() {
 
 // setup resize event
 window.addEventListener('resize', scroller.resize);
+
+// Get the modal
+var modal = document.getElementById("myModal");
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+// var img = document.getElementById("myImg");
+var modalImg = document.getElementById("img-modal");
+
+// img.onclick = function(){
+//   modal.style.display = "block";
+//   modalImg.src = this.src;
+// }
+
+var imgs = document.getElementsByTagName("img");
+console.log(imgs);
+for(let i = 0; i < imgs.length; i++){
+  imgs[i].onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = this.src;
+  }
+}
+
+modalImg.onclick = function() {
+    modal.style.display = "none";
+}
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal.style.display = "none";
+}
 
 </script>
 
