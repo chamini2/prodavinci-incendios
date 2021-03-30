@@ -20,7 +20,7 @@ var config = {
     // <p class='fecha'>CARACAS, 19 DE MARZO DE 2021</p>",
     chapters: [
         {
-          id: 'sumario',
+          id: 'text-simple-example',
           alignment: 'texto-simple',
           hidden: false,
           title: 'Storytelling',
@@ -36,23 +36,10 @@ var config = {
           },
           mapAnimation: 'flyTo',
           rotateAnimation: false,
-          callback: '',
-          onChapterEnter: [
-              {
-              layer: 'limiteraisg',
-              opacity: 0.9999999,
-              duration: 5000
-              }
-          ],
-          onChapterExit: [
-              {
-              layer: 'limiteraisg',
-              opacity: 0
-              }
-          ]
+          callback: ''
         },
         {
-          id: 'sumario',
+          id: 'sumario-example',
           alignment: 'sumario',
           hidden: false,
           description: 
@@ -66,23 +53,10 @@ var config = {
           },
           mapAnimation: 'flyTo',
           rotateAnimation: false,
-          callback: '',
-          onChapterEnter: [
-              {
-              layer: 'limiteraisg',
-              opacity: 0.9999999,
-              duration: 5000
-              }
-          ],
-          onChapterExit: [
-              {
-              layer: 'limiteraisg',
-              opacity: 0
-              }
-          ]
+          callback: ''
         },
         {
-          id: 'sumario',
+          id: 'infografia-example',
           alignment: 'infografia',
           hidden: false,
           image: './vzla.jpg',
@@ -96,20 +70,7 @@ var config = {
           },
           mapAnimation: 'flyTo',
           rotateAnimation: false,
-          callback: '',
-          onChapterEnter: [
-              {
-              layer: 'limiteraisg',
-              opacity: 0.9999999,
-              duration: 5000
-              }
-          ],
-          onChapterExit: [
-              {
-              layer: 'limiteraisg',
-              opacity: 0
-              }
-          ]
+          callback: ''
         },
         {
             id: 'pulitzer-example',
@@ -119,37 +80,32 @@ var config = {
             description:
                 "Leyenda del pulitzer",
             location: {
-                center: [-66.55775, -0.36321],
+                center: [-60.55775, -0.36321],
                 zoom: 3.48,
                 pitch: 21.00,
                 bearing: 0
             },
             mapAnimation: 'flyTo',
             rotateAnimation: false,
-            callback: '',
-            onChapterEnter: [
-                {
-                layer: 'limiteraisg',
-                opacity: 0.9999999,
-                duration: 5000
-                }
-            ],
-            onChapterExit: [
-                {
-                layer: 'limiteraisg',
-                opacity: 0
-                }
-            ]
+            callback: ''
           },
         {
-          id: 'sumario',
+          id: 'texto-avanzado-example',
           alignment: 'texto-avanzado',
           hidden: false,
           image: './pulitzer-center-logo.png',
           description: 
-              " <br><hr><br><h3>Este es el autor</h3><br><hr>\
-              <br><p>Y esto es otra cosa <a href='https://google.com'>con uns linea de hipervinculo</a>&nbsp;y no se que mas poner asi que ni modo esto se queda asi&nbsp;</p>\
-                <br><p>Y esto es otra cosa <a href='https://google.com'>con uns linea de hipervinculo</a>&nbsp;y no se que mas poner asi que ni modo esto se queda asi&nbsp;</p>",
+            `
+                <br><hr><br><h3>Este es el autor</h3><br><hr>
+                <br><p>Y esto es otra cosa <a href='https://google.com'>con uns linea de hipervinculo</a>&nbsp;y no se que mas poner asi que ni modo esto se queda asi&nbsp;</p>
+                <br><p>Y esto es otra cosa <a href='https://google.com'>con uns linea de hipervinculo</a>&nbsp;y no se que mas poner asi que ni modo esto se queda asi&nbsp;</p>
+                <br><p>Y esto es otra cosa <a href='https://google.com'>con uns linea de hipervinculo</a>&nbsp;y no se que mas poner asi que ni modo esto se queda asi&nbsp;</p>
+                <br><p>Y esto es otra cosa <a href='https://google.com'>con uns linea de hipervinculo</a>&nbsp;y no se que mas poner asi que ni modo esto se queda asi&nbsp;</p>
+                <br><p>Y esto es otra cosa <a href='https://google.com'>con uns linea de hipervinculo</a>&nbsp;y no se que mas poner asi que ni modo esto se queda asi&nbsp;</p>
+                <br><p>Y esto es otra cosa <a href='https://google.com'>con uns linea de hipervinculo</a>&nbsp;y no se que mas poner asi que ni modo esto se queda asi&nbsp;</p>
+                <br><p>Y esto es otra cosa <a href='https://google.com'>con uns linea de hipervinculo</a>&nbsp;y no se que mas poner asi que ni modo esto se queda asi&nbsp;</p>
+                <br><p>Y esto es otra cosa <a href='https://google.com'>con uns linea de hipervinculo</a>&nbsp;y no se que mas poner asi que ni modo esto se queda asi&nbsp;</p>
+            `,
           location: {
               center: [-66.55775, -0.36321],
               zoom: 3.48,
@@ -158,23 +114,10 @@ var config = {
           },
           mapAnimation: 'flyTo',
           rotateAnimation: false,
-          callback: '',
-          onChapterEnter: [
-              {
-              layer: 'limiteraisg',
-              opacity: 0.9999999,
-              duration: 5000
-              }
-          ],
-          onChapterExit: [
-              {
-              layer: 'limiteraisg',
-              opacity: 0
-              }
-          ]
+          callback: ''
         },
         {
-          id: 'sumario',
+          id: 'texto-mapa-example',
           alignment: 'texto-mapa',
           hidden: false,
           title: 'Storytelling',
@@ -186,43 +129,14 @@ var config = {
               <img src='./vzla.jpg'>\
               <figcaption>Fig.1 - Trulli, Puglia, Italy.</figcaption>",
           location: {
-              center: [-66.55775, -0.36321],
+              center: [-36.55775, -0.36321],
               zoom: 3.48,
               pitch: 21.00,
               bearing: 0
           },
           mapAnimation: 'flyTo',
           rotateAnimation: false,
-          callback: '',
-          onChapterEnter: [
-              {
-              layer: 'limiteraisg',
-              opacity: 0.9999999,
-              duration: 5000
-              }
-          ],
-          onChapterExit: [
-              {
-              layer: 'limiteraisg',
-              opacity: 0
-              }
-          ]
-        },
-        // {
-        //     id: 'sumario',
-        //     alignment: 'footer',
-        //     title: 'Creditos',
-        //     description: 
-        //         "<p class='creditos'><a>Creditos</a></p>\
-        //         <p>Direccion general: <a>Este pana</a></p>\
-        //         <p>Direccion general: <a>Este pana</a></p>\
-        //         <p>Direccion general: <a>Este pana</a></p>\
-        //         <p>Direccion general: <a>Este pana</a></p>\
-        //         <p>Direccion general: <a>Este pana</a></p>\
-        //         <p>Direccion general: <a>Este pana</a></p>\
-        //         <p>Direccion general: <a>Este pana</a></p>\
-        //         <hr>\
-        //         <p class='fecha'>CARACAS, 19 DE MARZO DE 2021</p>",
-        //   },
+          callback: ''
+        }
     ]
 };
