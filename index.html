@@ -18,13 +18,10 @@
     <div id="credito">
         <p>Creditos</p>
     </div>
-    <p>Direccion general: <a>Este pana</a></p>
-    <p>Direccion general: <a>Este pana</a></p>
-    <p>Direccion general: <a>Este pana</a></p>
-    <p>Direccion general: <a>Este pana</a></p>
-    <p>Direccion general: <a>Este pana</a></p>
-    <p>Direccion general: <a>Este pana</a></p>
-    <p>Direccion general: <a>Este pana</a></p>
+    <p>Direccion general: <a>Persona 1</a></p>
+    <p>Direccion general: <a>Persona 2</a></p>
+    <p>Direccion general: <a>Persona 3</a></p>
+    <p>Direccion general: <a>Persona 4</a></p>
     <div id='cline'>
         <hr>
     </div>
@@ -41,8 +38,8 @@
     <img class="modal-content" id="img-modal">
   
     <!-- Modal Caption (Image Text) -->
-    <div id="caption"></div>
-  </div>
+    <div id="img-modal-caption"></div>
+</div>
 
 <script src="./config.js"></script>
 <script>
@@ -271,6 +268,7 @@ var modal = document.getElementById("myModal");
 // Get the image and insert it inside the modal - use its "alt" text as a caption
 // var img = document.getElementById("myImg");
 var modalImg = document.getElementById("img-modal");
+var modalCaption = document.getElementById("img-modal-caption");
 
 // img.onclick = function(){
 //   modal.style.display = "block";
@@ -281,8 +279,18 @@ var imgs = document.getElementsByTagName("img");
 console.log(imgs);
 for(let i = 0; i < imgs.length; i++){
   imgs[i].onclick = function(){
-    modal.style.display = "block";
     modalImg.src = this.src;
+    let children = this.parentElement ? (this.parentElement.children ? this.parentElement.children : null) : null;
+    if (children) {
+        for (let j = 0; j < children.length; j++) {
+            let child = children.item(j);
+            if (child.tagName == "P") {
+                modalImg.alt = child.innerText;
+                modalCaption.innerText = child.innerText;
+            }
+        }
+    }
+    modal.style.display = "block";
   }
 }
 

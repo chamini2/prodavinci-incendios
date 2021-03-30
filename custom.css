@@ -427,24 +427,25 @@ a, a:hover, a:visited {
 .modal-content {
   margin: auto;
   display: block;
-  width: 80%;
-  /* max-width: 700px; */
+  height: 80%;
+  max-width: 300%;
+  object-fit: contain;
 }
 
 /* Caption of Modal Image (Image Text) - Same Width as the Image */
-#caption {
+#img-modal-caption {
   margin: auto;
   display: block;
   width: 80%;
-  max-width: 700px;
-  text-align: center;
   color: #ccc;
+  font-size: 20px;
+  font-weight: bold;
   padding: 10px 0;
   height: 150px;
 }
 
 /* Add Animation - Zoom in the Modal */
-.modal-content, #caption {
+.modal-content, #img-modal-caption {
   animation-name: zoom;
   animation-duration: 0.6s;
 }
@@ -456,7 +457,7 @@ a, a:hover, a:visited {
 
 /* The Close Button */
 .close {
-  position: absolute;
+  position: fixed;
   top: 15px;
   right: 35px;
   color: #f1f1f1;

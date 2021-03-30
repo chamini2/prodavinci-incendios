@@ -112,6 +112,36 @@ var config = {
           ]
         },
         {
+            id: 'pulitzer-example',
+            alignment: 'infografia',
+            hidden: false,
+            image: './pulitzer-center-logo.png',
+            description:
+                "Leyenda del pulitzer",
+            location: {
+                center: [-66.55775, -0.36321],
+                zoom: 3.48,
+                pitch: 21.00,
+                bearing: 0
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [
+                {
+                layer: 'limiteraisg',
+                opacity: 0.9999999,
+                duration: 5000
+                }
+            ],
+            onChapterExit: [
+                {
+                layer: 'limiteraisg',
+                opacity: 0
+                }
+            ]
+          },
+        {
           id: 'sumario',
           alignment: 'texto-avanzado',
           hidden: false,
