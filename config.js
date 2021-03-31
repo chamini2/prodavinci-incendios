@@ -24,8 +24,11 @@ var config = {
             alignment: 'sumario',
             hidden: false,
             description: 
-              " <p>Este es el intertitulo</p><p>Esto es algo&nbsp;</p>\
-                <p>Y esto es otra cosa <a href='https://google.com'>con uns linea de hipervinculo</a>&nbsp;y no se que mas poner asi que ni modo esto se queda asi&nbsp;</p>",
+              " <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's\
+              standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a\
+              type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining\
+              essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum \
+              passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>",
             location: {
                 center: [-66.55775, -0.36321],
                 zoom: 3.48,
@@ -40,11 +43,26 @@ var config = {
           id: 'text-simple-example',
           alignment: 'texto-simple',
           hidden: false,
-          title: 'Storytelling',
+          title: 'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium',
           
           description: 
-            " <p>Este es el intertitulo</p><p>Esto es algo&nbsp;</p>\
-              <p>Y esto es otra cosa <a href='https://google.com'>con uns linea de hipervinculo</a>&nbsp;y no se que mas poner asi que ni modo esto se queda asi&nbsp;</p>",
+            " <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,\
+            totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta\
+            sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia\
+            consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui \
+            dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, <a href='https://google.com'>sed quia non \
+            numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem</a>. Ut enim ad \
+            minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi\
+            minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi\
+            consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae \
+            minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi\
+            consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae \
+            minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi\
+            minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi\
+            consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae \
+            minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi\
+            minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi\
+            consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>",
           location: {
               center: [-66.55775, -0.36321],
               zoom: 3.48,
@@ -97,14 +115,23 @@ var config = {
           description: 
             `
                 <br><hr><br><h3>Este es el autor</h3><br><hr>
-                <br><p>Y esto es otra cosa <a href='https://google.com'>con uns linea de hipervinculo</a>&nbsp;y no se que mas poner asi que ni modo esto se queda asi&nbsp;</p>
-                <br><p>Y esto es otra cosa <a href='https://google.com'>con uns linea de hipervinculo</a>&nbsp;y no se que mas poner asi que ni modo esto se queda asi&nbsp;</p>
-                <br><p>Y esto es otra cosa <a href='https://google.com'>con uns linea de hipervinculo</a>&nbsp;y no se que mas poner asi que ni modo esto se queda asi&nbsp;</p>
-                <br><p>Y esto es otra cosa <a href='https://google.com'>con uns linea de hipervinculo</a>&nbsp;y no se que mas poner asi que ni modo esto se queda asi&nbsp;</p>
-                <br><p>Y esto es otra cosa <a href='https://google.com'>con uns linea de hipervinculo</a>&nbsp;y no se que mas poner asi que ni modo esto se queda asi&nbsp;</p>
-                <br><p>Y esto es otra cosa <a href='https://google.com'>con uns linea de hipervinculo</a>&nbsp;y no se que mas poner asi que ni modo esto se queda asi&nbsp;</p>
-                <br><p>Y esto es otra cosa <a href='https://google.com'>con uns linea de hipervinculo</a>&nbsp;y no se que mas poner asi que ni modo esto se queda asi&nbsp;</p>
-                <br><p>Y esto es otra cosa <a href='https://google.com'>con uns linea de hipervinculo</a>&nbsp;y no se que mas poner asi que ni modo esto se queda asi&nbsp;</p>
+                <br><p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,\
+                totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta\
+                sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia\
+                consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui \
+                dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, <a href='https://google.com'>sed quia non \
+                numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem</a>. Ut enim ad \
+                minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi\
+                minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi\
+                consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae \
+                minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi\
+                consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae \
+                minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi\
+                minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi\
+                consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae \
+                minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi\
+                minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi\
+                consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>\
             `,
           location: {
               center: [-66.55775, -0.36321],
@@ -123,9 +150,15 @@ var config = {
           title: 'Storytelling',
           
           description: 
-            " <p>Este es el intertitulo</p><p>Esto es algo&nbsp;</p>\
-              <p>Y esto es otra cosa <a href='https://google.com'>con uns linea de hipervinculo</a>&nbsp;y no\
-              se que mas poner asi que ni modo esto se queda asi&nbsp;</p>\
+            " <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,\
+              totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta\
+              sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia\
+              consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui \
+              dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, <a href='https://google.com'>sed quia non \
+              numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem</a>. Ut enim ad \
+              minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi\
+              consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae \
+              consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>\
               <img src='./vzla.jpg'>\
               <figcaption>Fig.1 - Trulli, Puglia, Italy.</figcaption>",
           location: {
