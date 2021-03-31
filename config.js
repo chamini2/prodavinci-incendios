@@ -20,28 +20,28 @@ var config = {
     // <p class='fecha'>CARACAS, 19 DE MARZO DE 2021</p>",
     chapters: [
         {
+            id: 'sumario-example',
+            alignment: 'sumario',
+            hidden: false,
+            description: 
+              " <p>Este es el intertitulo</p><p>Esto es algo&nbsp;</p>\
+                <p>Y esto es otra cosa <a href='https://google.com'>con uns linea de hipervinculo</a>&nbsp;y no se que mas poner asi que ni modo esto se queda asi&nbsp;</p>",
+            location: {
+                center: [-66.55775, -0.36321],
+                zoom: 3.48,
+                pitch: 21.00,
+                bearing: 0
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: ''
+          },  
+        {
           id: 'text-simple-example',
           alignment: 'texto-simple',
           hidden: false,
           title: 'Storytelling',
           
-          description: 
-            " <p>Este es el intertitulo</p><p>Esto es algo&nbsp;</p>\
-              <p>Y esto es otra cosa <a href='https://google.com'>con uns linea de hipervinculo</a>&nbsp;y no se que mas poner asi que ni modo esto se queda asi&nbsp;</p>",
-          location: {
-              center: [-66.55775, -0.36321],
-              zoom: 3.48,
-              pitch: 21.00,
-              bearing: 0
-          },
-          mapAnimation: 'flyTo',
-          rotateAnimation: false,
-          callback: ''
-        },
-        {
-          id: 'sumario-example',
-          alignment: 'sumario',
-          hidden: false,
           description: 
             " <p>Este es el intertitulo</p><p>Esto es algo&nbsp;</p>\
               <p>Y esto es otra cosa <a href='https://google.com'>con uns linea de hipervinculo</a>&nbsp;y no se que mas poner asi que ni modo esto se queda asi&nbsp;</p>",
