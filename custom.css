@@ -33,9 +33,9 @@ a, a:link, a:visited, a:hover {
 }
 
 html {
-  overflow-x: hidden;
+  overflow-x: auto;
   overflow-y: auto;
-  scroll-snap-type: y mandatory;
+  /* scroll-snap-type: y mandatory; */
 }
 
 /* all steps */
@@ -78,9 +78,7 @@ html {
 .embeded > .dark >  p {
   position: relative;
   height: 0;
-  padding-bottom: 56.25%;
-  overflow: hidden;
-  /* width: 800px; REVIEW THIS LINE */
+  overflow: scroll;
 }
 .embeded > .dark {
   margin: auto;
@@ -97,6 +95,21 @@ html {
   width: 100%;
   height: 100%;
   max-width: 100%;
+}
+#video-documental p {
+  padding-bottom: 56.25%;
+}
+#tableau p {
+  padding-bottom: 87.87%;
+}
+@media (max-width: 700px) {
+  #tableau p {
+    padding: 0;
+    padding-bottom: 87.87%;
+  }
+}
+#tableau .dark {
+  max-width: 668px;;
 }
 
 /* Texto Avanzado */
@@ -257,10 +270,10 @@ img {
 }
 @media(max-width: 750px) {
   .texto-mapa {
-    margin: 0;
-    scroll-margin: 50vh;
-    height: 50vh;
-    overflow-y: auto;
+    margin: 5vh 0 50vh 0;
+    /* scroll-margin: 50vh; */
+    /* height: 50vh; */
+    /* overflow-y: auto; */
   }
 }
 
