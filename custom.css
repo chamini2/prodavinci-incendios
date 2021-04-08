@@ -67,6 +67,14 @@ html {
   font-weight: 400;
   color: #ffffffc7
 }
+@media (max-width: 750px) {
+  .texto-simple > .dark >  h3 {
+    font-size: 16pt;
+  }
+  .texto-simple > .dark >  p {
+    font-size: 14pt;
+  }
+}
 
 /* Embeded content */
 .embeded {
@@ -172,6 +180,11 @@ img {
   font-size: 50px;
   color: #ffaa17
 }
+@media (max-width: 750px) {
+  .sumario > .dark >  p {
+    font-size: 19pt;
+  }
+}
 
 /* Infografia */
 .infografia {
@@ -193,6 +206,11 @@ img {
   margin: 0;
   font-weight: 400;
   color: #ffaa17;
+}
+@media (max-width: 750px) {
+  .infografia > .dark >  p {
+    font-size: 12pt;
+  }
 }
 
 .infografia > .dark >  img {
@@ -380,6 +398,9 @@ a, a:hover, a:visited {
   .centered, .lefty, .righty, .fully {
       width: 90vw;
       margin: 0 auto;
+  }
+  .step div {
+    padding: 25px 40px;
   }
 }
 
