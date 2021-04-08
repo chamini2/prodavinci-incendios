@@ -68,6 +68,37 @@ html {
   color: #ffffffc7
 }
 
+/* Embeded content */
+.embeded {
+  min-width: 100vw;
+  margin-bottom: 50vh;
+  background-color: var(--solid-color);
+  padding-bottom: 0 !important;
+}
+.embeded > .dark >  p {
+  position: relative;
+  height: 0;
+  padding-bottom: 56.25%;
+  overflow: hidden;
+  /* width: 800px; REVIEW THIS LINE */
+}
+.embeded > .dark {
+  margin: auto;
+  background-color: inherit !important;
+  max-width: 950px;
+  width: 100%;
+}
+.embeded iframe,
+.embeded embed {
+  position: absolute;
+  border: 0;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  max-width: 100%;
+}
+
 /* Texto Avanzado */
 .texto-avanzado {
   min-width: 100vw;
