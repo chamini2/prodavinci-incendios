@@ -211,6 +211,9 @@ img {
   .infografia > .dark >  p {
     font-size: 12pt;
   }
+  .infografia > .dark {
+    padding: 5vw;
+  }
 }
 
 .infografia > .dark >  img {
