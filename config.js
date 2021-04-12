@@ -5,19 +5,9 @@ var config = {
     markerColor: '#3FB1CE',
     theme: 'dark',
     use3dTerrain: true,
-    title: 'Áreas Protegidas en fuego',
-    subtitle: 'Dos décadas de incendios dentro de las Áreas Protegidas Naturales de Venezuela',
-    byline: 'By a Digital Storyteller',
-    // footer: "Creditos\
-    // <p>Direccion general: <a>Este pana</a></p>\
-    // <p>Direccion general: <a>Este pana</a></p>\
-    // <p>Direccion general: <a>Este pana</a></p>\
-    // <p>Direccion general: <a>Este pana</a></p>\
-    // <p>Direccion general: <a>Este pana</a></p>\
-    // <p>Direccion general: <a>Este pana</a></p>\
-    // <p>Direccion general: <a>Este pana</a></p>\
-    // <hr>\
-    // <p class='fecha'>CARACAS, 19 DE MARZO DE 2021</p>",
+    // title: 'Áreas Protegidas en fuego',
+    // subtitle: 'Dos décadas de incendios dentro de las Áreas Protegidas Naturales de Venezuela',
+    // byline: 'By a Digital Storyteller',
     chapters: [
         {
           id: 'sumario',

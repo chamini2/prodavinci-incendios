@@ -343,6 +343,12 @@ a, a:hover, a:visited {
   width: 100%;
   position: relative;
   z-index: 5;
+  color: white;
+  min-height: max(100vh, 500px);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-image: url("./Incendios-amazonas-agro.jpg");
 }
 #header h1, #header h2, #header p {
   margin: 0;
