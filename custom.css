@@ -59,20 +59,24 @@ html {
 }
 .texto-simple > .dark >  h3 {
   font-size: 50px;
+  line-height: 75px;
   font-weight: 700;
   color: #ffffff;
 }
 .texto-simple > .dark >  p {
   font-size: 30px;
+  line-height: 45px;
   font-weight: 400;
   color: #ffffffc7
 }
 @media (max-width: 750px) {
   .texto-simple > .dark >  h3 {
-    font-size: 16pt;
+    font-size: 12pt;
+    line-height: 16pt;
   }
   .texto-simple > .dark >  p {
     font-size: 14pt;
+    line-height: 19pt;
   }
 }
 
@@ -137,12 +141,14 @@ html {
 
 .texto-avanzado > .dark >  p {
   font-size: 30px;
+  line-height: 45px;
   font-weight: 400;
   color: #ffffffc7
 }
 
 .texto-avanzado > .dark > p > h3 {
   font-size: 40px;
+  line-height: 45px;
   font-weight: 700;
   text-align: center;
   color: #ffffff;
@@ -178,6 +184,7 @@ img {
 .sumario > .dark >  p {
   font-weight: 300;
   font-size: 50px;
+  line-height: 60px;
   color: #ffaa17
 }
 @media (max-width: 750px) {
@@ -203,6 +210,7 @@ img {
 
 .infografia > .dark >  p {
   font-size: 20px;
+  line-height: 30px;
   margin: 0;
   font-weight: 400;
   color: #ffaa17;
@@ -245,6 +253,7 @@ img {
 
 #footer > #creditos > p {
   font-size: 60px;
+  line-height: 70px;
   max-width: 950px;
   padding: 25px 50px;
   font-weight: 700;
@@ -268,6 +277,7 @@ img {
 #footer > p {
   color: #ffffffc7;
   font-size: 30px;
+  line-height: 45px;
   font-weight: 400;
   max-width: 950px;
   padding: 0px 50px;
@@ -307,11 +317,13 @@ img {
 }
 .texto-mapa > .dark >  h3 {
   font-size: 50px;
+  line-height: 60px;
   font-weight: 900;
   color: #ffffff;
 }
 .texto-mapa > .dark >  p {
   font-size: 30px;
+  line-height: 45px;
   font-weight: 400;
   color: #ffffffc7
 }
