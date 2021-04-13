@@ -55,17 +55,17 @@ html {
   text-align: left;
   margin: auto;
   background-color: inherit !important;
-  max-width: 950px;
+  max-width: 550px;
 }
 .texto-simple > .dark >  h3 {
-  font-size: 50px;
-  line-height: 75px;
+  font-size: 22pt;
+  line-height: 26pt;
   font-weight: 700;
   color: #ffffff;
 }
 .texto-simple > .dark >  p {
-  font-size: 30px;
-  line-height: 45px;
+  font-size: 18pt;
+  line-height: 26pt;
   font-weight: 400;
   color: #ffffffc7
 }
@@ -206,12 +206,12 @@ img {
   text-align: left;
   margin: auto;
   background-color: inherit !important;
-  padding: 100px;
+  padding: 100px 200px;
 }
 
 .infografia > .dark >  p {
-  font-size: 20px;
-  line-height: 30px;
+  font-size: 16pt;
+  line-height: 24pt;
   margin: 0;
   font-weight: 400;
   color: #ffaa17;
@@ -226,8 +226,9 @@ img {
 }
 
 .infografia > .dark >  img {
-  max-width: 2680px;
-  max-height: 1680px;
+  max-width: 100%;
+  max-height: calc(100vh - 200px);
+  object-fit: contain;
 }
 
 
