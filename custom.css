@@ -136,19 +136,19 @@ html {
   text-align: left;
   margin: auto;
   background-color: inherit !important;
-  max-width: 950px;
+  max-width: 450px;
 }
 
 .texto-avanzado > .dark >  p {
-  font-size: 30px;
-  line-height: 45px;
+  font-size: 18pt;
+  line-height: 26pt;
   font-weight: 400;
   color: #ffffffc7
 }
 
 .texto-avanzado > .dark > p > h3 {
-  font-size: 40px;
-  line-height: 45px;
+  font-size: 20pt;
+  line-height: 32pt;
   font-weight: 700;
   text-align: center;
   color: #ffffff;

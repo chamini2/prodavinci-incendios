@@ -42,10 +42,11 @@ var config = {
         },
         {
           id: 'texto-1',
-          alignment: 'texto-simple',
+          alignment: 'texto-avanzado',
           hidden: false,
-          // title: 'Un título',
+          image: './pulitzer-center-logo.png',
           description: `
+            <br/><hr/><br/><h3>Por Helena Carpio</h3><br/><hr/><br/><br/>
             Cuando la humanidad domesticó el fuego se encaminó hacia otros planetas. Zeus, dios del trueno en la mitología
             griega, iba a destruir a la humanidad. Pero Prometeo, tratando de evitarlo, robó el fuego a los dioses y se lo
             enseñó al hombre, inventando las artes —la arquitectura, metalurgia, agricultura, medicina y matemáticas.
