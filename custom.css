@@ -136,7 +136,7 @@ html {
   text-align: left;
   margin: auto;
   background-color: inherit !important;
-  max-width: 450px;
+  max-width: 550px;
 }
 
 .texto-avanzado > .dark >  p {
@@ -162,7 +162,7 @@ img {
   width: 50%;
   display: block;
   margin: 5vh auto;
-  max-width: 450px;
+  max-width: 550px;
 }
 
 /* Sumario */
@@ -183,7 +183,7 @@ img {
 
 .sumario > .dark >  p {
   font-weight: 300;
-  font-size: 26pt;
+  font-size: 24pt;
   line-height: 32pt;
   color: #ffaa17
 }
@@ -249,26 +249,24 @@ img {
 #footer > #creditos {
   background-color: #ffaa17;
   width: 100%;
-  height: 100px;
+  height: 60px;
 }
 
 #footer > #creditos > p {
-  font-size: 60px;
-  line-height: 70px;
+  font-size: 24pt;
+  line-height: 60px;
   max-width: 950px;
-  padding: 25px 50px;
   font-weight: 700;
   margin: auto;
   text-align: left;
-  padding-top: 10px;
 }
 
-#footer > #cline{
-  max-width: 950px;
-  margin: 0 auto;
+#footer > .cline {
+  max-width: 460px;
+  margin: 40px auto;
 }
 
-#footer > #cline hr {
+#footer > .cline hr {
   max-width: 580px;
   margin: 0px;
   border-color: #ffaa17;
@@ -277,8 +275,8 @@ img {
 
 #footer > p {
   color: #ffffffc7;
-  font-size: 30px;
-  line-height: 45px;
+  font-size: 22pt;
+  line-height: 26pt;
   font-weight: 400;
   max-width: 950px;
   padding: 0px 50px;
@@ -295,7 +293,7 @@ img {
 
 /* Texto mapa */
 .texto-mapa {
-  max-width: 1150px;
+  max-width: 550px;
   background: rgba(0, 0, 0, .8);
   padding: 0px!important;
   margin: 5vh auto 50vh 5vw;
@@ -314,17 +312,18 @@ img {
   margin: auto;
   /* background-color: inherit !important; */
   background-color: rgba(0, 0, 0, 0) !important;
-  max-width: 950px;
+  max-width: 450px;
+  padding: 50px;
 }
 .texto-mapa > .dark >  h3 {
-  font-size: 50px;
-  line-height: 60px;
+  font-size: 22pt;
+  line-height: 26pt;
   font-weight: 900;
   color: #ffffff;
 }
 .texto-mapa > .dark >  p {
-  font-size: 30px;
-  line-height: 45px;
+  font-size: 18pt;
+  line-height: 26px;
   font-weight: 400;
   color: #ffffffc7
 }
