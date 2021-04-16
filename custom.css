@@ -64,6 +64,64 @@ header #social-media {
   justify-content: center;
 }
 
+footer {
+  position: relative;
+  z-index: 5;
+  background-color: #1a1a1a;
+}
+
+footer #otherworks {
+  display: flex;
+  color: white;
+  font-size: 18pt;
+  line-height: 26pt;
+  max-width: 100%;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#otherworks img {
+  object-fit: cover;
+  width: 200px;
+  height: 150px;
+}
+#otherworks .owork {
+  display: flex;
+  flex-direction: column;
+}
+.owork {
+  margin: 10px 5px;
+}
+.owork a, .owork a:visited {
+  color: white !important;
+}
+.owork a:hover {
+  color: #ffaa17 !important;
+}
+.owork a p {
+  text-align: center;
+  margin: 2px;
+}
+
+footer .stripe {
+  background-color: black;
+  color: white;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+}
+
+footer .stripe div {
+  font-size: 24pt;
+  line-height: 80px;
+}
+
+@media (max-width: 750px) {
+  footer .stripe div {
+    font-size: 14pt;
+  }
+}
+
 #header {
   background-color: #ffaa17;
 }
