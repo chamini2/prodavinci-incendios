@@ -150,12 +150,13 @@ var config = {
           id: 'fotografia-racionamiento',
           alignment: 'infografia',
           hidden: false,
-          image: './racionamiento.jpeg',
           description: `
-            Desde 2001, los incendios han aumentado en 63 de las 80 Áreas Protegidas del país, incluyendo
-            todos los Santuarios de Fauna Silvestre, el 93% de los Parques Nacionales, 71% de las Reservas
-            de Fauna Silvestre, 57% de los Monumentos Naturales y 42% de los Refugios de Fauna Silvestre.
-            Pero el aumento es desigual. Fotografía de <b>Juan Carlos Pérez</b>
+            <picture>
+              <source
+                media="(max-width: 750px)"
+                srcset="./racionamiento-vertical.jpeg">
+              <img src="./racionamiento.jpeg" />
+            </picture>
           `,
           location: {
               center: [-66.55775, -0.36321],
