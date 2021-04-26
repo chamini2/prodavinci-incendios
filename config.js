@@ -44,6 +44,7 @@ var config = {
           id: 'texto-1',
           alignment: 'texto-avanzado',
           hidden: false,
+          showMap: true,
           image: './pulitzer-center-logo.png',
           description: `
             <br/><hr/><br/><h3>Por Helena Carpio</h3><br/><hr/><br/><br/>
@@ -150,6 +151,7 @@ var config = {
           id: 'fotografia-racionamiento',
           alignment: 'infografia',
           hidden: false,
+          showMap: true,
           description: `
             <picture>
               <source
@@ -192,7 +194,7 @@ var config = {
         },
         {
           id: 'texto-mapa-1',
-          alignment: 'texto-mapa',
+          alignment: 'texto-mapa-left',
           description: `
             Desde que se creó en 2017, el 75% de los focos de incendios están concentrados en la superposición con el Arco Minero,
             sobre vegetación de bosques semicaducifolios al este y sabanas arbustivas/arboladas al oeste.
@@ -218,7 +220,7 @@ var config = {
         },
         {
           id: 'texto-mapa-2',
-          alignment: 'texto-mapa',
+          alignment: 'texto-mapa-right',
           description: `
             Las poblaciones indígenas tradicionales del territorio, los Sanemá y Yekwana, también queman para sembrar.
             Pero utilizan técnicas muy particulares de rotación de campos de cultivo. Los Yekwana limpian el área de
@@ -247,7 +249,7 @@ var config = {
         },
         {
           id: 'texto-mapa-3',
-          alignment: 'texto-mapa',
+          alignment: 'texto-mapa-center',
           description: `
             Entre 2000 y 2018 se han perdido al menos 2.899 kilómetros cuadrados de bosque en la Amazonía venezolana,
             encontró Provita, X. Es un área equivalente a 2.7 veces la isla de Margarita. La actividad agropecuaria es

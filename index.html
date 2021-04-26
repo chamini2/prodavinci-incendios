@@ -112,7 +112,9 @@ var alignments = {
     'infografia': 'infografia',
     'texto-avanzado': 'texto-avanzado',
     'footer': 'footer',
-    'texto-mapa': 'texto-mapa'
+    'texto-mapa-left': 'texto-mapa lefty',
+    'texto-mapa-center': 'texto-mapa centered',
+    'texto-mapa-right': 'texto-mapa righty'
 }
 
 function getLayerPaintType(layer) {
@@ -187,13 +189,19 @@ config.chapters.forEach((record, idx) => {
 
     container.setAttribute('id', record.id);
     container.classList.add('step');
+    if (record.showMap) {
+        container.classList.add('show-map');
+    }
     if (idx === 0) {
         container.classList.add('active');
     }
 
     chapter.classList.add(config.theme);
     container.appendChild(chapter);
-    container.classList.add(alignments[record.alignment] || 'centered');
+    var cls = (alignments[record.alignment] || 'texto-mapa').split(' ');
+    cls.forEach(cl => {
+        container.classList.add(cl);
+    })
     if (record.hidden) {
         container.classList.add('hidden');
     }
