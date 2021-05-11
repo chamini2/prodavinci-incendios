@@ -504,6 +504,13 @@ a, a:hover, a:visited {
   background-size: cover;
   background-image: url("./Incendios-amazonas-agro.jpg");
 }
+
+@media(max-width: 750px) {
+  #header {
+    background-image: url("./Incendios-amazonas-agro-vertical.jpg");
+  }
+}
+
 #header h1, #header h2, #header p {
   margin: 0;
   padding: 2vh 2vw;
